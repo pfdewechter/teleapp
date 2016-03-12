@@ -1,0 +1,7 @@
+{% extends 'social/base.html' %}
+
+{% block content %}
+<p>Home!</p>
+<h2><a href="{% url 'register_practitioner' %}">Register as a practitioner</a></h2>
+<h2><a href="{% url 'register_consultee' %}">Register as a consultee</a></h2>
+{% endblock %}
